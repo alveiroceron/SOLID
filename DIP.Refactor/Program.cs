@@ -1,12 +1,6 @@
-﻿//PRINCIPIO DE INVERSION DE DEPENDENCIA: dependencia fuerte entre modulo de alto nivel con uno de bajo nivel
-//podemos tener un modulo de alto nivel con un modulo de bajo nivel, si hay un cambio en el de bajo nivel el de alto nivel se afecta
-//se busca un desacoplamiento con abstracciones
+﻿
 
-//los modulo sde alto ybajo nivel deoen depender de las abstracciones
-
-
-
-using DIP.Intro;
+using DIP.Refactor;
 
 Almacen mialmacen = new Almacen();
 double total = 0;
